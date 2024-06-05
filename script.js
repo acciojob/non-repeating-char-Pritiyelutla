@@ -1,5 +1,9 @@
 function firstNonRepeatedChar(str) {
     // Write your code here
+	 if(str.size() < 2)
+    {
+        return null;
+    }
     let size = 26;
     let arr = [...Array(size)].fill(0);
      
