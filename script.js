@@ -1,6 +1,6 @@
 function firstNonRepeatedChar(str) {
     // Write your code here
-	 if(str.length < 2)
+	 if(str.length== 0)
     {
         return null;
     }
@@ -23,6 +23,7 @@ function firstNonRepeatedChar(str) {
             return str[i];
         }
     }
+	return null;
    }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
