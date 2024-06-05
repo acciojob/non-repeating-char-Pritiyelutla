@@ -1,6 +1,6 @@
 function firstNonRepeatedChar(str) {
     // Write your code here
-	 if(str.size() < 2)
+	 if(str.length < 2)
     {
         return null;
     }
